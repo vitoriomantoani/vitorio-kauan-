@@ -1,18 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz Game</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Flashcard</title>
 </head>
 <body>
-  <div class="quiz-container">
-    <h1>Quiz Game</h1>
-    <div id="question"></div>
-    <div id="answers"></div>
-    <button id="next" disabled>Next</button>
-  </div>
-  <script src="script.js"></script>
+    <header>
+        <h1>Flashcards de Programação</h1>
+    </header>
+    <main>
+        <section id="container" aria-label="Seção de Flashcards">
+            <!-- Flashcard 1 -->
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3 class="cartao__titulo">Programação</h3>
+                    <div class="cartao__pergunta">
+                        <p>O que é JavaScript?</p>
+                    </div>
+                    <div class="cartao__resposta">
+                        <p>JavaScript é uma linguagem de programação usada principalmente para adicionar interatividade em páginas web.</p>
+                    </div>
+                </div>
+            </article>
+            <!-- Flashcard 2 -->
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3 class="cartao__titulo">Programação</h3>
+                    <div class="cartao__pergunta">
+                        <p>O que é CSS?</p>
+                    </div>
+                    <div class="cartao__resposta">
+                        <p>CSS (Cascading Style Sheets) é uma linguagem usada para estilizar o layout das páginas web.</p>
+                    </div>
+                </div>
+            </article>
+            <!-- Flashcard 3 -->
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3 class="cartao__titulo">Programação</h3>
+                    <div class="cartao__pergunta">
+                        <p>O que é HTML?</p>
+                    </div>
+                    <div class="cartao__resposta">
+                        <p>HTML (HyperText Markup Language) é a linguagem padrão para criar páginas web.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto desenvolvido pela Alura, sem fins lucrativos.</p>
+    </footer>
 </body>
 </html>
